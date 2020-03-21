@@ -1,0 +1,12 @@
+#hoverImage {
+  display: none;
+}
+
+#mainImage:hover {
+  display:none;
+  cursor: pointer;
+}
+
+#mainImage:hover ~ #hoverImage {
+  display: block;
+}
